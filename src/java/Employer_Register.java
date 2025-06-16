@@ -54,6 +54,9 @@ public class Employer_Register extends HttpServlet {
         
         
         try{
+
+
+       System.out.println("Inner try block");
        
         String name=request.getParameter("name");
         String email=request.getParameter("email");
