@@ -1,0 +1,36 @@
+<h1>Add Personal Details!</h1>
+        <form action="employee_personal_dtls.jsp">
+        
+        <table align="center" border="1">
+<tr><td><input type="text" name="name" placeholder="Enter your name" required></td></tr>     
+<tr><td><input type="email" name="email" placeholder="Enter your email" required></td></tr>     
+<tr><td><input type="tel" name="mob" pattern="[6,7,8,9][0-9]{9}" placeholder="Enter your mobile" required></td></tr>     
+<tr><td> <select name="state" required><option>choose state</option><option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option><option>Bihar</option><option>Chhattisgarh</option><option>Goa</option><option>Gujarat</option><option>Haryana</option><option>Himachal Pradesh</option><option>Jharkhand</option><option>Karnataka</option><option>Kerela</option><option>Maharashtra</option><option>Madhya Pradesh</option><option>Manipur</option><option>Meghalaya</option><option>Mizoram</option><option>Mizoram</option><option>Nagaland</option><option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Sikkim</option><option>Tamil Nadu</option><option>Tripura</option><option>Telangana</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option><option>Andaman & Nicobar (UT)</option><option>Chandigarh (UT)</option><option>Dadra & Nagar Haveli and Daman & Diu (UT)</option><option>Delhi [National Capital Territory (NCT)]</option><option>Jammu & Kashmir (UT)</option><option>Ladakh (UT)</option><option>Lakshadweep (UT)</option><option>Puducherry (UT)</option></select></td></tr>
+<tr><td><input type="text" name="city" placeholder="Enter your city" required></td></tr>             
+<tr><td><input type="text" name="add" placeholder="Enter your address" required></td></tr>     
+<tr><td>
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="Male" required>
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label>
+  </td>
+</tr>
+
+<tr><td><label>Marital Status:</label>
+    <input type="radio" id="ms1" name="mstatus" value="married" required>
+    <label for="ms1">Married</label>
+
+    <input type="radio" id="ms2" name="mstatus" value="unmarried">
+    <label for="ms2">Unmarried</label></td></tr> 
+
+<tr><td><input type="submit" value="Submit Details"></td></tr> 
+    
+      </table>  
+        </form>
+        
+ 
